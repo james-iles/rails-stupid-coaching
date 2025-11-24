@@ -1,0 +1,9 @@
+<div class="p-3">
+<h1>Stupid Coaching</h1>
+
+<ul class="list-group list-group-flush col-6">
+  <li class="list-group-item py-3">You: <strong><%= @question.capitalize %></strong></li>
+  <li class="list-group-item py-3 response">Coach: <strong><%= @coach_response %></strong></li>
+</ul>
+<p><%= link_to "Ask another question!", ask_path, class: "btn btn-primary mt-3"%></p>
+</div>

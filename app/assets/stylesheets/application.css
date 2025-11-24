@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  /* border: 5px solid red; */
+}
+
+.list-group-item.response {
+  background-color: rgb(249, 249, 162);
+}
+
+ul {
+  border-left: 7px solid rgb(186, 186, 186);
+}
